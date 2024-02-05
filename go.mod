@@ -4,7 +4,7 @@ go 1.21.6
 
 require (
 	github.com/jackc/pgx/v5 v5.5.3
-	github.com/joho/godotenv v1.3.0
+	github.com/joho/godotenv v1.5.1
 	github.com/kelseyhightower/envconfig v1.4.0
 	google.golang.org/grpc v1.61.0
 	google.golang.org/protobuf v1.32.0

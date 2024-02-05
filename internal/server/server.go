@@ -20,7 +20,7 @@ func New(auditServer audit.AuditServiceServer) *Server {
 }
 
 func (s *Server) ListenAndServe(port int) error {
-	addr := fmt.Sprintf(":%d", port)
+	addr := fmt.Sprintf("0.0.0.0:%d", port)
 
 	lis, err := net.Listen("tcp", addr)
 	if err != nil {
